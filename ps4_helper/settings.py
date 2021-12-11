@@ -23,7 +23,7 @@ SECRET_KEY = 'y7=*iis&v1ie!zawa!h%vw^%*_uy_+78*&-idc_gm2l952lgz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'alena1.pythonanywhere.com']
 
 
 # Application definition
@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'ps4_helper.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ps_site',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'NAME': 'alena1$ps_site',
+        'USER': 'alena1',
+        'PASSWORD': 'rootroot',
+        'HOST': 'alena1.mysql.pythonanywhere-services.com',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     },
 }
